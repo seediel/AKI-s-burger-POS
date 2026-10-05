@@ -1,0 +1,103 @@
+burger,plain burger,20,buns,1
+burger,plain burger,20,patty,1
+burger,plain burger,20,dressing,1
+ham sandwich,ham plain,25,buns,1
+ham sandwich,ham plain,25,ham,1
+ham sandwich,ham plain,25,buns,1
+ham sandwich,ham plain,25,ham,1
+ham sandwich,ham plain,25,buns,1
+ham sandwich,ham plain,25,ham,1
+ham sandwich,ham plain,25,dressing,1
+ham sandwich,ham w/ cheese,30,buns,1
+ham sandwich,ham w/ cheese,30,ham,1
+ham sandwich,ham w/ cheese,30,cheese slice,1
+ham sandwich,ham w/ cheese,30,dressing,1
+ham sandwich,ham w/ egg,35,buns,1
+ham sandwich,ham w/ egg,35,ham,1
+ham sandwich,ham w/ egg,35,egg,1
+ham sandwich,ham w/ egg,35,buns,1
+ham sandwich,ham w/ egg,35,ham,1
+ham sandwich,ham w/ egg,35,egg,1
+ham sandwich,ham w/ patty,35,buns,1
+ham sandwich,ham w/ patty,35,ham,1
+ham sandwich,ham w/ patty,35,patty,1
+ham sandwich,ham w/ patty,35,buns,1
+ham sandwich,ham w/ patty,35,ham,1
+ham sandwich,ham w/ patty,35,patty,1
+ham sandwich,ham w/ cheese & egg,40,buns,1
+ham sandwich,ham w/ cheese & egg,40,ham,1
+ham sandwich,ham w/ cheese & egg,40,cheese slice,1
+ham sandwich,ham w/ cheese & egg,40,egg,1
+burger,burger w/ cheese,25,buns,1
+burger,burger w/ cheese,25,patty,1
+burger,burger w/ cheese,25,cheese slice,1
+burger,burger w/ cheese,25,dressing,1
+burger,burger w/ egg,30,buns,1
+burger,burger w/ egg,30,patty,1
+burger,burger w/ egg,30,egg,1
+burger,burger w/ egg,30,dressing,1
+burger,loaded burger,50,buns,1
+burger,loaded burger,50,patty,1
+burger,loaded burger,50,cheese slice,1
+burger,loaded burger,50,egg,1
+burger,loaded burger,50,ham,1
+burger,loaded burger,50,dressing,1
+ham sandwich,ham w/ patty & egg,40,buns,1
+ham sandwich,ham w/ patty & egg,40,ham,1
+ham sandwich,ham w/ patty & egg,40,patty,1
+ham sandwich,ham w/ patty & egg,40,egg,1
+egg sandwich,egg sandwich,25,buns,1
+egg sandwich,egg sandwich,25,egg,1
+egg sandwich,egg sandwich,25,dressing,1
+egg sandwich,egg sandwich w/cheese,30,buns,1
+egg sandwich,egg sandwich w/cheese,30,egg,1
+egg sandwich,egg sandwich w/cheese,30,cheese slice,1
+footlong,footlong plain,35,footlong bun,1
+footlong,footlong plain,35,footlong,1
+footlong,footlong plain,35,dressing,1
+footlong,footlong w/ cheese,45,footlong bun,1
+footlong,footlong w/ cheese,45,footlong,1
+footlong,footlong w/ cheese,45,dressing,1
+footlong,footlong w/ cheese,45,cheese block,1
+footlong,footlong w/ cheese & egg,55,footlong bun,1
+footlong,footlong w/ cheese & egg,55,footlong,1
+footlong,footlong w/ cheese & egg,55,dressing,1
+footlong,footlong w/ cheese & egg,55,cheese block,1
+footlong,footlong w/ cheese & egg,55,egg,1
+drink,coke mismo,25,coke mismo,1
+drink,coke kasalo,35,coke kasalo,1
+drink,coke 1.5L,80,coke 1.5L,1
+drink,sprite mismo,25,sprite mismo,1
+drink,sprite 1.5L,80,sprite 1.5L,1
+drink,royal mismo,25,royal mismo,1
+drink,royal kasalo,35,royal kasalo,1
+drink,yakult,12,yault,1
+drink,delight small,12,delight (small),1
+drink,delight large,45,delight (large),1
+drink,choc-o,14,choc-o,1
+drink,RC 8oz,13,RC 8oz,1
+drink,RC Mega,35,RC Mega,1
+drink,fruit soda 8oz,13,fruit soda 8oz,1
+drink,juicy lemon 8oz,13,fruit soda 8oz,1
+drink,zesto apple,13,zesto apple,1
+drink,zesto mango,13,zesto mango,1
+drink,zesto pineapple,13,zesto pineapple,1
+drink,zesto guyabano,13,zesto guyabano,1
+drink,zesto orange,13,zesto orange,1
+drink,C2 solo,20,C2 solo,1
+drink,C2 1L,50,C2 1L,1
+drink,chuckie small,20,chuckie small,1
+drink,chuckie large,35,chuckie large,1
+drink,sterilized milk,35,sterilized milk,1
+drink,mineral 350ml,10,mineral 350ml,1
+drink,mineral 500ml,15,mineral 500ml,1
+drink,mineral 1L,20,mineral 1l,1
+drink,sting red,25,sting red,1
+drink,cobra yellow,20,cobra yellow,1
+drink,cobra green,20,cobra green,1
+add-on,cheese slice,5,cheese slice,1
+add-on,grated cheese,5,cheese block,1
+add-on,burger patty,10,patty,1
+add-on,egg,10,egg,1
+add-on,ham,15,ham,1
+add-on,hot sauce,1,hot sauce,1
