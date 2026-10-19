@@ -143,7 +143,7 @@ void display_receipts() {
 
         for (auto a : reciept.items){
             ostringstream price;
-            price<<"₱"<<fixed<<setprecision(2)<< a.total_price;
+            price<<"PHP "<<fixed<<setprecision(2)<< a.total_price;
 
             cout<<left<<setw(25)<<to_string(num++)+ "." +a.name
             <<setw(10)<<"QTY: "+to_string(a.qty)
@@ -152,9 +152,9 @@ void display_receipts() {
         }
         cout<<"--------------------------------------------\n";
         ostringstream total, payment, change;
-        total<<"₱"<<fixed<<setprecision(2)<<total_price;
-        payment<<"₱"<<fixed<<setprecision(2)<<reciept.payment;
-        change<<"₱"<<fixed<<setprecision(2)<<reciept.change;
+        total<<"PHP "<<fixed<<setprecision(2)<<total_price;
+        payment<<"PHP "<<fixed<<setprecision(2)<<reciept.payment;
+        change<<"PHP "<<fixed<<setprecision(2)<<reciept.change;
         cout<<left<<setw(35)<<"Total: "<<total.str()<<"\n";
         cout<<left<<setw(35)<<"Payment: "<<payment.str()<<"\n";
         cout<<left<<setw(35)<<"Change: "<<change.str()<<"\n";
@@ -430,7 +430,7 @@ void display_menu() {
             if (menu[i].category == category[label]){
                 {
                     ostringstream price;
-                    price<< "price \u20B1"<< fixed << setprecision(2) << menu[i].price;
+                    price<< "price PHP "<< fixed << setprecision(2) << menu[i].price;
                     cout<<left << setw(25) << to_string(num++) + ". " + menu[i].item_name;
                     cout<<left << setw(22) << price.str();
 
@@ -522,7 +522,7 @@ void add_menu(){
 
         cout<<"["<<newitem.category<<"]"
         <<"\t"<<newitem.item_name
-        <<"\t ₱"<<left<<setw(6)<<newitem.price;
+        <<"\t PHP "<<left<<setw(6)<<newitem.price;
         for(auto recipe : newitem.item_recipe){
             cout<<recipe.ingredient_required<<"("<<recipe.quantity_required<<")\t";
         }
