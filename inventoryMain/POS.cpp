@@ -54,7 +54,8 @@ void subtracted_qty(vector<Cart>cart);
 void POS();
 void display_cart();
 void manage_cart();
-vector <int> real_number;
+
+static vector <int> real_number;
 vector<Cart>cart;
 Receipt receipt;
 
@@ -169,13 +170,14 @@ void display_menu() {
     string title[] = {"BURGERS","HAM SANDWICHES","EGG SANDWICHES","FOOTLONGS","DRINKS","ADD-ONS"};
     string category[] = {"burger","ham sandwich","egg sandwich","footlong","drink","add-on"};
     cout<<"\n=================== AKI'S burger MENU ========================";
+    cout<< fixed << setprecision(2);
     for(int label = 0; label < 6; label++ ){
         cout<<"\n"<<title[label]<<"\n";
         for (int i = 0; i < menu.size(); i++){
             if (menu[i].category == category[label]){
                 {
                     ostringstream price;
-                    price<< "price \u20B1"<< fixed << setprecision(2) << menu[i].price;
+                    price<< "price: PHP " << menu[i].price;
                     cout<<left << setw(30) << to_string(num++) + ". " + menu[i].item_name;
                     cout<<left << setw(22) << price.str();
 
@@ -362,14 +364,14 @@ void display_cart(){
         if(list.amount == 0){continue;}
         cout<<num<<". "<<left<<setw(30)<<list.item.item_name;
         cout<<left<<setw(10)<<"Qty: " + to_string(list.amount);
-        cout<<"₱"<<list.total<<"\n";
+        cout<<"PHP "<<list.total<<"\n";
         num++;
     }
     double total = 0.00;
     for (auto store : cart){
         total += store.total;
     }
-    cout<<left<<setw(43)<<"TOTAL: "<<"₱"<<total;
+    cout<<left<<setw(43)<<"TOTAL: "<<"PHP "<<total;
     cout<<"\n--------------------------------------------------------------";
 }
 void manage_cart(){

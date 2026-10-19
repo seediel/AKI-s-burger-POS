@@ -52,7 +52,7 @@ public:
     string checkout_time;
 };
 vector <Receipt> receipts;
-vector <int> real_number;
+static vector <int> real_number;
 
 vector <ingredients> load_ingredients(){
     vector <ingredients> ingredientsinv;
