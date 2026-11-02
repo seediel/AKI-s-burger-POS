@@ -1,6 +1,7 @@
 burger,plain burger,20,buns,1
 burger,plain burger,20,patty,1
 burger,plain burger,20,dressing,1
+burger,plain burger,20,cobra green,1
 ham sandwich,ham plain,25,buns,1
 ham sandwich,ham plain,25,ham,1
 ham sandwich,ham plain,25,buns,1
@@ -29,7 +30,6 @@ ham sandwich,ham w/ cheese & egg,40,ham,1
 ham sandwich,ham w/ cheese & egg,40,cheese slice,1
 ham sandwich,ham w/ cheese & egg,40,egg,1
 burger,burger w/ cheese,25,buns,1
-burger,burger w/ cheese,25,patty,1
 burger,burger w/ cheese,25,cheese slice,1
 burger,burger w/ cheese,25,dressing,1
 burger,burger w/ egg,30,buns,1
@@ -99,5 +99,3 @@ add-on,cheese slice,5,cheese slice,1
 add-on,grated cheese,5,cheese block,1
 add-on,burger patty,10,patty,1
 add-on,egg,10,egg,1
-add-on,ham,15,ham,1
-add-on,hot sauce,1,hot sauce,1

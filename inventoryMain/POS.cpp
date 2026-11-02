@@ -55,7 +55,7 @@ void POS();
 void display_cart();
 void manage_cart();
 
-static vector <int> real_number;
+vector <int> real_number;
 vector<Cart>cart;
 Receipt receipt;
 
@@ -337,11 +337,10 @@ void checkout(){
         if(final != 'y'){
             manage_cart();
         }
-    using namespace std::chrono;
     time_t time_now = time(nullptr);
     tm* local_time = localtime(&time_now);
     stringstream time;
-    time<<put_time(local_time,"%m-%d-%Y %H:%M:%S" );
+    time << put_time(local_time,"%m-%d-%Y %H:%M:%S" );
     string current_time = time.str();
 
     for(auto item : cart){
